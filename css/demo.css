@@ -1,0 +1,321 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+/*********************************************
+GENERAL
+*********************************************/
+
+body {
+	background: #fff;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+max-width:100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 5%;
+  list-style: none;
+  max-width: 1500px;
+  min-height: 80vh;
+}
+
+#viewer {
+  max-width: 100%;
+}
+/*********************************************
+LINK COLORS
+*********************************************/
+
+a, button {
+	outline: none;
+}
+
+a, a:visited {
+	color: #566473;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #ccc;
+}
+
+/*********************************************
+ANIMATED HEADER
+*********************************************/
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo-1 .large-header {
+	background-image: url('../img/demo-1-bg.jpg');
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.demo-1 .main-title {
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+.subtitle {
+    font-size: 1em;
+    font-weight:100;
+    position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 10%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+
+/*********************************************
+NAV ELEMENTS
+*********************************************/
+
+nav {
+    font-weight: 600;
+}
+
+nav a.selected {
+    color: #000;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px; /* topbottom leftright*/
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a{
+  font-weight: 900;
+  padding: 15px 10px;
+}
+
+/*********************************************
+HEADER
+*********************************************/
+
+header {
+  float: left;
+  margin: 0; /* top right bottom left*/
+  padding: 0;
+  width: 100%;
+}
+
+#header {
+  text-align: center;
+  margin: 0;
+}
+
+#header h1 {
+  margin: 10px 0px 45px 0px;
+  font-size: 4em;
+}
+
+#header h2 {
+  margin: -45px 0 0;
+  font-size: 0.85em;
+}
+
+/*********************************************
+GALLERY
+*********************************************/
+#gallery {
+  margin: 0 auto;
+  padding: 0 5%;
+  list-style: none;
+  max-width: 1500px;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: 1px solid #ececec;
+  color: #bdc3c7;
+}
+
+#gallery li a img {
+  border-radius: 5px;
+  
+}
+
+#gallery li a p {
+  text-align: center;
+  margin: 0;
+  padding: 5%;
+  font-size: 0.85em;
+  font-weight: 400;
+  color: #222;
+}
+
+/*****************************
+PAGE: ABOUT
+******************************/
+
+#about {
+  margin: 0 auto;
+  padding: 0 5%;
+  list-style: none;
+  max-width: 1500px;
+  }
+
+#editors {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#editors li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  color: #bdc3c7;
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  color: #bdc3c7;
+  text-align: center;
+}
+
+#editors li a p {
+  text-align: center;
+  margin: 0;
+  padding: 0%;
+  font-size: 0.85em;
+  color: #222;
+}
+
+/*****************************
+PAGE: CONTACT
+******************************/
+#primary, #secondary, #tertiary{
+  padding: 0px 0px 0px 3%;
+  }
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px; /* 10px margin on bottom */
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png')
+}
+
+.contact-info li.email a {
+  background-image: url('../img/mail.png')
+}
+
+.contact-info li.facebook a {
+  background-image: url('../img/facebook.png')
+}
+
+
+/*********************************************
+WEBVIEWER
+*********************************************/
+
+
+/*********************************************
+FOOTER
+*********************************************/
+footer {
+  font-size: 1.0em;
+  text-align: center;
+  padding-top: 50px;
+  color: #000;
+  clear: both;
+} 
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+.homeimage{
+    width:65vh; /* you can use % */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+

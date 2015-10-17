@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Teknos: Journal for Science, Technology, and Mathematics</title>
+        <link rel="icon" type="image/png" href="img/tjlogo.png"/>
+		<meta name="description" content="Teknos Journal for Science, Technology, and Mathematics" />
+		<meta name="keywords" content="teknos, journal, science, magazine, tjhsst, thomas, jefferson, technology, mathematics" />
+		<meta name="author" content="byu.io"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+        <script src="js/ScrollTo.js"></script>
+	</head>
+	<body>
+		<div class="container demo-1" id="wrapper">
+          <a href="#header">
+		    <div class="content">
+		      <div id="large-header" class="large-header">
+                <canvas id="demo-canvas"></canvas>
+                <h1 class="main-title">TEKNOS<br><span class="thin">Online</span></h1>
+                <h1 class="subtitle">Click Anywhere</h1>
+              </div>
+		    </div>
+		  </a>
+          <header id="header">
+            <a href="index.html#large-header">
+              <h1>TEKNOS</h1>
+              <h2>Thomas Jefferson High School for Science and Technology</h2>
+            </a>
+            <nav>
+              <ul>
+                <li><a href="index.html#header">Home</a></li>
+                <li><a href="about.html#header">About</a></li>
+                <li><a href="contact.html#header">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+          <nav>
+            <ul id="years">
+              <li><a href="teknos2015.html#header">2015</a></li>
+              <li><a href="teknos2014.html#header">2014</a></li>
+              <li><a href="teknos2013.html#header">2013</a></li>
+              <li><a href="teknos2012.html#header">2012</a></li>
+              <li><a href="teknos2011.html#header" class="selected">2011</a></li>
+            </ul>
+          </nav>
+          <section>
+            <center><iframe id="viewer" src = "/ViewerJS/#../journals/teknos2011.pdf" width='724' height='1024' allowfullscreen webkitallowfullscreen></iframe></center>
+          </section>
+          <br>
+          <footer>
+            <a href="http://twitter.com/tjTeknos"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+            <a href="http://facebook.com/tjTeknos"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+            <p>&copy; 2014 <a href src="http://byu.io">Brian Yu</a></p>
+            <p class="ref">Image credits: <a href="http://www.eso.org/public/images/eso1205a/">ESO/VISTA/J. Emerson. Acknowledgment: Cambridge Astronomical Survey Unit</a></p>
+          </footer>
+		</div><!-- /container -->
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		<script src="js/demo-1.js"></script>
+	</body>
+</html>
